@@ -1,0 +1,42 @@
+html{
+    background-image: url("bgimage.jpg");
+}
+h1{
+    color:rgb(128,0,128);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 400%;
+    text-decoration: wavy;
+}
+.container{
+    text-align: center;
+    margin: 50px;
+}
+.calculator{
+    margin:90px;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 60px;
+    margin-bottom: 5px;
+    width:40%;
+    border: 5px solid rgb(23, 17, 17);
+    color:rgb(97, 5, 5);
+    border-radius: 10px;
+}
+input:hover{
+    background-color:rgb(245,245,245);
+}
+button{
+    width:150px;
+    height:75px;
+    font-size:50px;
+    background-color: rgba(23, 17, 17,0);
+    color:rgb(97, 5, 5);
+    font-weight: 200;
+}
+button:hover{ 
+    background-color: rgb(105,105,105);
+    color:rgb(139,0,0);
+}
